@@ -1,0 +1,4 @@
+#These are the options for DSC Code
+-lang C
+-misra2 required-rules
+-results-dir D:\1130903\PolySpaceServerTest\Test03_ZeroDivision

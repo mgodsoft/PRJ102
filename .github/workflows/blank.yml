@@ -25,5 +25,5 @@ jobs:
       - uses: actions/checkout@v3
       # Runs polyspace server
       - name: Run polyspace server
-        run: "C:\Program Files\Polyspace Server\R2021a\polyspace\bin\polyspace-bug-finder-server.exe" -options-file D:\1130903\PolySpaceServerTest\Test03_ZeroDivision\listofoptions.txt
+        run: polyspace-bug-finder-server -options-file listofoptions.txt -sources ZeroDivision.c
 

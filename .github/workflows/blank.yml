@@ -22,8 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
+      - uses: actions/checkout@v3
       # Runs a single command using the runners shell
-      - name: Run polyspace server
-        run: echo Hello, world!
+      #- name: Run polyspace server
+      #  run: echo Hello, world!
 

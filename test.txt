@@ -1,1 +1,6 @@
-abc45
+void main() {
+   int a = 16;
+   int b = 8;
+   int c;
+   c = a-b;
+}
